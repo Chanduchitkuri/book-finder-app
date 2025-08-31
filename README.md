@@ -1,13 +1,30 @@
-# Book Finder
+#Book Finder App
 
-This is a Book Finder which searches for books listed on Google Books. It has been created using HTML5, CSS3, Bootstrap 4 and vanilla Javascript.
+This is a simple, single-page web application for searching books by title, author, or subject. The application fetches book data from the Open Library API and displays the results in a responsive grid.
 
-If you want to have a sneak peek into this project, Here's [the link](https://techcatchers.github.io/Book-Finder/) for the project.
+Features
+Search Functionality: Users can search for books using a simple search bar.
 
-Here's a Preview of our Book Finder web app.
+Filter Options: Search results can be filtered by title, author, or subject.
 
-!['Preview-Image'](preview.gif)
+Responsive Design: The application is designed to work seamlessly on both desktop and mobile devices.
 
-___
+Real-time Data: Fetches and displays data from the Open Library API.
 
-### If you liked this Repository, then please leave a star on this repository so that I can know you liked this project. It motivates me to contribute more in such Open Source projects in the future.
+#How to Run the App
+
+This application is built as a single, self-contained HTML file. To run it, you do not need to install any dependencies or a development server.
+
+Download or copy the index.html file into a local folder.
+
+Open the file directly in your web browser (e.g., Chrome, Firefox, Safari).
+
+#Technologies Used
+
+React: For building the user interface.
+
+Babel: To compile JSX code for the browser.
+
+Tailwind CSS: For all styling, providing a modern and responsive design.
+
+Open Library API: For fetching book data.
